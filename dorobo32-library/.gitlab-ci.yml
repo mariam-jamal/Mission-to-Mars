@@ -1,0 +1,28 @@
+image: alpine
+
+before_script:
+  - apk update
+  # Switch timezone to CET
+  - apk add tzdata
+  - unlink /etc/localtime
+  - ln -s /usr/share/zoneinfo/Europe/Berlin /etc/localtime
+  - echo "Europe/Berlin" >  /etc/timezone
+  # This is for the dynamic code documenting
+  - apk add doxygen
+  - apk add ttf-freefont graphviz
+
+pages:
+  stage: deploy
+  script:
+    - mkdir public
+    - cp -r dorobo32/include public/dorobo32-include
+    #- cd doxygen
+    #- mkdir documentation
+    #- doxygen Doxyfile
+    #- cd ..
+    #- mv doxygen/documentation/html public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master

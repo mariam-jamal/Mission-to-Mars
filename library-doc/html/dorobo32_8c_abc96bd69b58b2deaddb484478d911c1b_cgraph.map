@@ -1,0 +1,6 @@
+<map id="_exit" name="_exit">
+<area shape="rect" id="node2" href="$dorobo32_8c.html#acb63b2facd1047295c0d020f4ecfcca4" title="Set the red on&#45;board led on or off. " alt="" coords="132,5,196,32"/>
+<area shape="rect" id="node3" href="$dorobo32_8c.html#affe4c046de18d601e9acec79a8dc9613" title="Set the green on&#45;board led on or off. " alt="" coords="125,56,203,83"/>
+<area shape="rect" id="node4" href="$dorobo32_8c.html#ac0e413d0981c9dca50c601cdd7136199" title="Toggle the green on&#45;board led. " alt="" coords="104,107,224,133"/>
+<area shape="rect" id="node5" href="$dorobo32_8c.html#a9c3ea73977f3778cf9ba5c9c7b4eb499" title="Toggle the red on&#45;board led. " alt="" coords="111,157,217,184"/>
+</map>

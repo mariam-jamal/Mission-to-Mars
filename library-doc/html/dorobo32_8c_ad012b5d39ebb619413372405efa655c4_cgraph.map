@@ -1,0 +1,4 @@
+<map id="dorobo_init" name="dorobo_init">
+<area shape="rect" id="node2" href="$dorobo32_8c.html#a02fd73d861ef2e4aabb38c0c9ff82947" title="init" alt="" coords="159,5,198,32"/>
+<area shape="rect" id="node3" href="$digital_8h.html#a7b2aa66f743a986c626b61bcd117a3c2" title="Initialize the Dorobo32 Digital I/O (DD) module. " alt="" coords="139,56,219,83"/>
+</map>
